@@ -15,6 +15,8 @@ namespace LogicalPrograms
             Console.WriteLine("");
             Console.WriteLine("3. Prime Number");
             Console.WriteLine("");
+            Console.WriteLine("4. Reverse the Number");
+            Console.WriteLine("");
             Console.WriteLine("\t\t\t Please press 0 to exit");
             Console.WriteLine("");
             //FibonacciSeries series = new FibonacciSeries();
@@ -37,6 +39,9 @@ namespace LogicalPrograms
                         break;
                     case 3:
                         PrimeNumber.Check_Prime();
+                        break;
+                    case 4:
+                        ReverseNumber.ReverseLogic();
                         break;
                     case 0:
                         flag = 1;
