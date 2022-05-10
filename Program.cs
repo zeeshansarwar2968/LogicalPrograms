@@ -13,7 +13,9 @@ namespace LogicalPrograms
             Console.WriteLine("");
             Console.WriteLine("2. Perfect Number");
             Console.WriteLine("");
-            Console.WriteLine("\t\t\t Please press 3 to exit");
+            Console.WriteLine("3. Prime Number");
+            Console.WriteLine("");
+            Console.WriteLine("\t\t\t Please press 0 to exit");
             Console.WriteLine("");
             //FibonacciSeries series = new FibonacciSeries();
             //series.calculationLogic();
@@ -34,6 +36,9 @@ namespace LogicalPrograms
                         perfectNumber.PerfectNumberLogic();
                         break;
                     case 3:
+                        PrimeNumber.Check_Prime();
+                        break;
+                    case 0:
                         flag = 1;
                         break;
                     default:
