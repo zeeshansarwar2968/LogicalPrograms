@@ -17,6 +17,8 @@ namespace LogicalPrograms
             Console.WriteLine("");
             Console.WriteLine("4. Reverse the Number");
             Console.WriteLine("");
+            Console.WriteLine("5. Coupon Numbers");
+            Console.WriteLine("");
             Console.WriteLine("\t\t\t Please press 0 to exit");
             Console.WriteLine("");
             //FibonacciSeries series = new FibonacciSeries();
@@ -42,6 +44,9 @@ namespace LogicalPrograms
                         break;
                     case 4:
                         ReverseNumber.ReverseLogic();
+                        break;
+                    case 5:
+                        CouponNumbers.CouponGenerator();
                         break;
                     case 0:
                         flag = 1;
