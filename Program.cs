@@ -19,6 +19,8 @@ namespace LogicalPrograms
             Console.WriteLine("");
             Console.WriteLine("5. Coupon Numbers");
             Console.WriteLine("");
+            Console.WriteLine("6. Stopwatch Simulator");
+            Console.WriteLine("");
             Console.WriteLine("\t\t\t Please press 0 to exit");
             Console.WriteLine("");
             //FibonacciSeries series = new FibonacciSeries();
@@ -48,6 +50,9 @@ namespace LogicalPrograms
                     case 5:
                         CouponNumbers.CouponGenerator();
                         break;
+                    case 6:
+                        StopWatch.StopwatchSimulator();
+                        break;  
                     case 0:
                         flag = 1;
                         break;
